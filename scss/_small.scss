@@ -105,6 +105,14 @@ main {
         text-align: center;
         background-color: rgb(173, 185, 206);
         border-radius: 5px;
+
+        figure{
+            margin: 0;
+        }
+
+        h2 {
+            font-size: medium;
+        }
     }
 
     .btn{
@@ -118,9 +126,9 @@ main {
     #midButton{
         background-color: cornflowerblue;
         text-align: center;
-        margin-left: 1rem;
         margin-top: 2rem;
         border-radius: 5px;
+        padding: 1vw;
     }
 
     .blog{

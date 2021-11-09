@@ -375,7 +375,7 @@ main {
     display: flex;
     flex-wrap: wrap; }
   main .column {
-    padding: 0 0.4vw; }
+    padding: 0 0.5vw; }
   main .small-1 {
     flex-basis: 8.3333333333%; }
   main .small-2 {
@@ -404,6 +404,10 @@ main {
     text-align: center;
     background-color: #adb9ce;
     border-radius: 5px; }
+    main .cards figure {
+      margin: 0; }
+    main .cards h2 {
+      font-size: medium; }
   main .btn {
     height: 2rem;
     margin: 1rem;
@@ -413,9 +417,9 @@ main {
   main #midButton {
     background-color: cornflowerblue;
     text-align: center;
-    margin-left: 1rem;
     margin-top: 2rem;
-    border-radius: 5px; }
+    border-radius: 5px;
+    padding: 1vw; }
   main .blog {
     background-color: #adb9ce;
     margin-left: 1rem;
